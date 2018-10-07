@@ -8,14 +8,14 @@
 
     <title>Hibiol Wiki</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/plugins/iCheck/custom.css" rel="stylesheet">
 
-    	<link href="css/style.css" rel="stylesheet">
+    	<link href="../css/style.css" rel="stylesheet">
 
 
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
     
 
 
@@ -68,30 +68,19 @@
 	</div>
 	<div class="row " style="">
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ">
-			<div class="ibox float-e-margins"><div class="ibox-title"><h5><h2>Home</h2></h5><div class="ibox-tools"></div></div><div class="ibox-content" style="min-height: px"><h2>Welcome to Hibiol Wiki, the wiki for programmers</h2>
+			<div class="ibox float-e-margins"><div class="ibox-title"><h5><h2>Citations</h2></h5><div class="ibox-tools"></div></div><div class="ibox-content" style="min-height: px"><p>You can write a citation like so: <sup><a href="#reference_1" target="_top">[1]</a></sup></p>
 
-<p>In Hibiol Wiki, you run the wiki editor on a machine and then upload the results! This was made so people can create wiki pages and preview them on their PC and then make pull requests to upload new content.</p>
+<pre><code>{{citation number}}
+</code></pre>
 
-<hr>
+<p>And you will need to add some front matter to the top of the page that will give you a reference.</p>
 
-<h3>About Hibiol</h3>
-
-<p>Hibiol has lots of features. In fact this wiki you are reading right now is written in Hibiol!</p>
-
-<p>Files are stored as <a href="/markdown" target="_top" style="color: blue;">Markdown</a>, so you can just as easily edit the files&#39; text.</p>
-
-<p>Not just markdown, Hibiol has <a href="/additional_syntax" target="_top" style="color: blue;">AdditionalSyntax</a> that lets you draw flowcharts and graphs, and write mathematical equations.</p>
-
-<p>Each page can also have <a href="/metadata" target="_top" style="color: blue;">Metadata</a>, making finding related pages easy.</p>
-
-<p>Want a sidebar? No problem. This is a list of <a href="/special_pages" target="_top" style="color: blue;">SpecialPages</a> that are used in Hibiol.</p>
-
-<hr>
-
-<h3>Getting Started</h3>
-
-<p>Go to the <a href="/getting_started" target="_top" style="color: blue;">GettingStarted</a> page to see how to start making your wiki.</p>
-</div></div><h1><h2></h2></h1>
+<pre><code>---
+references:
+  1: Some book (www.example.com)
+---
+</code></pre>
+</div><div class="ibox-footer"><h6><h5>References</h5><ul><li id="reference_1_background"><a id="#reference_1">[1]</a> - Some book (www.example.com)</li></ul></h6><h5>Tags: <a href="/tags/additional syntax">additional syntax </a></h5></div></div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
 			<h1><h2></h2></h1><h3>Navigation</h3>
@@ -102,6 +91,15 @@
 <li><a href="/markdown" target="_top" style="color: blue;">Markdown</a></li>
 <li><a href="/special_pages" target="_top" style="color: blue;">SpecialPages</a></li>
 <li><a href="/additional_syntax" target="_top" style="color: blue;">AdditionalSyntax</a></li>
+</ul>
+<br  /><h1><h2></h2></h1><h4>Additional Syntax:</h4>
+
+<ul>
+<li><a href="/wikilinks" target="_top" style="color: blue;">Wikilinks</a></li>
+<li>Citations</li>
+<li><a href="/flowcharts" target="_top" style="color: blue;">Flowcharts</a></li>
+<li><a href="/math_expressions" target="_top" style="color: blue;">MathExpressions</a></li>
+<li><a href="/icons" target="_top" style="color: blue;">Icons</a></li>
 </ul>
 
 		</div>
@@ -127,11 +125,11 @@
 </div>
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/jquery-ui-1.10.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/jquery-ui-1.10.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 	<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
 			asciimath2jax: {
@@ -139,14 +137,14 @@
 			}
 		});
 	</script>
-    <script src="js/MathJax/MathJax.js?config=AM_HTMLorMML-full" async></script>
+    <script src="../js/MathJax/MathJax.js?config=AM_HTMLorMML-full" async></script>
 
 
 
 
     <!-- Custom and plugin javascript -->
-    <script src="js/weaver.js"></script>
-    <script src='js/plugins/pace/pace.min.js'></script>
+    <script src="../js/weaver.js"></script>
+    <script src='../js/plugins/pace/pace.min.js'></script>
 
     <script>
 
